@@ -1,0 +1,43 @@
+//
+//  VideoViewController.swift
+//  CultureChatApp
+//
+//  Created by Shilin Ni on 12/10/17.
+//  Copyright © 2017 Shilin Ni. All rights reserved.
+//
+
+import UIKit
+
+class VideoViewController: UIViewController {
+
+    
+    @IBOutlet weak var time: UILabel!
+    @IBOutlet weak var hangup: UIButton!
+    @IBOutlet weak var mute: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func hangUpAction(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}

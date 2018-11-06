@@ -1,0 +1,6 @@
+framework module Pods_CultureChatApp {
+  umbrella header "Pods-CultureChatApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
