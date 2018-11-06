@@ -19,3 +19,6 @@ Pod used:
     pod 'JSQMessagesViewController'
     pod 'Firebase/Database'
     pod 'FirebaseUI/Storage'
+
+
+GoogleService-Info.plist and LoginViewController.swift have been changed to hide the psw.
