@@ -1,13 +1,13 @@
 
 IMPORTANT: open CultureChatApp.xcworkspace instead of CultureChatApp.xcodeproj
 
-1. Favorites: add/remove languages. post a request. make appointments. view all appointments. 
+1. Favorites: Add/remove languages. Post a request. Make appointments. View all appointments. 
 
-2. schedule: user's current schedule.
+2. schedule: View user's current schedule.
 
-3. contacts: can text friends and see appointments. 
+3. contacts: Text friends and see appointments. 
 
-4. user's profile: change profile photo. custom user name. show all specific user infos. logout. 
+4. user's profile: Change profile photo. Custom user name. Show all specific user infos. Logout. 
 
 Using Xcode 8.3 and Swift 3.
 
